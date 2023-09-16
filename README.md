@@ -1,0 +1,2 @@
+# ostimTemiTurkishNLP
+ostimTemiTurkishNLP
