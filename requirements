@@ -1,0 +1,7 @@
+SpeechRecognition
+gtts
+os
+pygame
+transformers
+torch
+pyaudio
