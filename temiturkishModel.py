@@ -6,8 +6,8 @@ import time
 
 
 # LOAD MODEL
-tokenizer = AutoTokenizer.from_pretrained("savasy/bert-base-turkish-squad")
-model = AutoModelForQuestionAnswering.from_pretrained("savasy/bert-base-turkish-squad")
+tokenizer = AutoTokenizer.from_pretrained("muratsimsek003/turkish_bert_qa")
+model = AutoModelForQuestionAnswering.from_pretrained("muratsimsek003/turkish_bert_qa")
 qa=pipeline("question-answering", model=model, tokenizer=tokenizer)
 
 with open('ostim.txt', encoding='utf-8') as dosya:
