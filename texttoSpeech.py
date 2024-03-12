@@ -14,6 +14,8 @@ def  texttoSpeech(cevap):
     # Passing the text and language to the engine
     tts = gTTS(text=text, lang=language, slow=False)
 
+    # if os.path.exists("./ses/output.mp3"):
+    #     os.remove("./ses/output.mp3")
     # Saving the converted audio in a file
     tts.save("./ses/output.mp3")
 
@@ -24,3 +26,5 @@ def  texttoSpeech(cevap):
 
     while pygame.mixer.music.get_busy():
         pygame.time.Clock().tick(10)
+
+
