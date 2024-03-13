@@ -1,16 +1,18 @@
 # streamlit_app.py
 
 import streamlit as st
-from gtts import gTTS
-import os
+import transformers
 import pygame
-from transformers import AutoTokenizer, AutoModelForQuestionAnswering, pipeline
 import torch
+import speechtoText
+from transformers import AutoTokenizer, AutoModelForQuestionAnswering, pipeline
 from texttoSpeech import texttoSpeech
 from speechtoText import speechtoText
+from gtts import gTTS
 import time
 import speech_recognition as sr
 from temiturkishModel import temi_main
+
 
 def main():
     st.title("OSTIMTECH TEMI")
