@@ -1,6 +1,15 @@
 # streamlit_app.py
 
 import streamlit as st
+from gtts import gTTS
+import os
+import pygame
+from transformers import AutoTokenizer, AutoModelForQuestionAnswering, pipeline
+import torch
+from texttoSpeech import texttoSpeech
+from speechtoText import speechtoText
+import time
+import speech_recognition as sr
 from temiturkishModel import temi_main
 
 def main():
