@@ -4,7 +4,7 @@ from texttoSpeech import texttoSpeech
 from speechtoText import speechtoText
 import time
 
-def main():
+def temi_main():
     # LOAD MODEL
     tokenizer = AutoTokenizer.from_pretrained("muratsimsek003/turkish_bert_qa")
     model = AutoModelForQuestionAnswering.from_pretrained("muratsimsek003/turkish_bert_qa")
@@ -22,4 +22,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    temi_main()
