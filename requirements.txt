@@ -3,5 +3,6 @@ gtts
 pygame
 transformers
 torch
-pyaudio
+PyAudio
 streamlit
+python -m pip install pyaudio
