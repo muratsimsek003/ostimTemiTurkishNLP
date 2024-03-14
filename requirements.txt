@@ -3,5 +3,4 @@ gtts
 pygame
 transformers
 torch
-PyAudio
 streamlit
