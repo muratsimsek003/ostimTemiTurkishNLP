@@ -3,6 +3,5 @@ gtts
 pygame
 transformers
 torch
-portaudio19-dev
 PyAudio
 streamlit
