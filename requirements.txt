@@ -4,3 +4,7 @@ pygame
 transformers
 torch
 streamlit
+streamlit-webrtc
+streamlit-TTS
+soundfile
+sounddevice

@@ -1,7 +1,7 @@
 # streamlit_app.py
 
 import streamlit as st
-from temiturkishModel import temi_main
+from temiturkishModel2 import temi_main
 
 
 def main():
