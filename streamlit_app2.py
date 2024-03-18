@@ -36,7 +36,8 @@ def convert_audio_to_text(filename):
 
 def main():
     st.title("OSTIMTECH TEMI")
-
+    # Kenar çubuğu oluştur
+    st.sidebar.image("logo.png", use_column_width=True)
     button_clicked = st.button("BANA SORU SOR")
     if button_clicked:
         st.write("ŞİMDİ KONUŞARAK SORU SORABİLİRSİNİZ")
