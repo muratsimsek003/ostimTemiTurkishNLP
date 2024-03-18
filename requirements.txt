@@ -9,4 +9,3 @@ streamlit-TTS
 soundfile
 sounddevice
 pipwin
-pyaudio
