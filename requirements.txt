@@ -8,4 +8,4 @@ streamlit-webrtc
 streamlit-TTS
 soundfile
 sounddevice
-pipwin
+libportaudio2
