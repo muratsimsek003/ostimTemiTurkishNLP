@@ -6,3 +6,4 @@ torch
 streamlit
 streamlit-webrtc
 streamlit-TTS
+sounddevice
