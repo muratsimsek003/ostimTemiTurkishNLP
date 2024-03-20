@@ -43,3 +43,5 @@ def temi_main(os_question):
 
     cevap = qa(question=os_question, context=ostim)["answer"]
     texttoSpeech(cevap)
+    return cevap
+

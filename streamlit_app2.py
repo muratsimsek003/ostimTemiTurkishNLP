@@ -43,7 +43,9 @@ def main():
         st.write("ŞİMDİ KONUŞARAK SORU SORABİLİRSİNİZ")
         user_input_text = record_and_convert_to_text()
         st.write("Söylediğiniz: ", user_input_text)
-        temi_main(user_input_text)
+        # temi_main(user_input_text)
+        temi_response = temi_main(user_input_text)
+        st.write("Sistemin Cevabı: ", temi_response)
 
 
 if __name__ == "__main__":
